@@ -23,7 +23,7 @@ describe('postcard service', function () {
 
   describe('create', function () {
 
-    it('calls the correct endpoint and with correct params', function () {
+    it('calls the correct endpoint with correct params', function () {
       var payload = { id: 'psc_id' };
 
       Sinon.stub(API, 'post').returns($q.resolve());
